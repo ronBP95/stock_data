@@ -26,7 +26,7 @@ class StockData:
      self.urls = {
       'sign_in': 'https://wallmine.com/users/sign-in',
       'homepage': 'https://wallmine.com/',
-      'view_stock': lambda exchange, symbol: f'https://secure.ally.com/capi-gw/{exchange}/{symbol}'
+      'view_stock': lambda exchange, symbol: f'https://wallmine.com/{exchange}/{symbol}'
      }
      self.driver = webdriver.Chrome('/Users/romebell/downloads/chromedriver-4') # use your path to your Chromedriver
   
