@@ -5,6 +5,7 @@ Today, we will be making a script that will be analyzing data from [Wallmine](ht
 
 We need to do a couple of things before we start:
 - Set up an account on [Wallmine](https://www.wallmine.com) (it's free)
+IMPORTANT: Be sure to select ***Sign in with a password*** so you can have that for your *credentials*
 - Create a repo if you want to display your work on your personal github or *fork* and *clone* this repo if otherwise
 - Create a *.gitignore* file and input the following:
 ```text
@@ -23,7 +24,7 @@ class StockData:
   def __init__(self):
      self.data = []
      self.urls = {}
-     self.driver = webdriver.Chrome('/Users/romebell/downloads/chromedriver-4')
+     self.driver = webdriver.Chrome('/Users/romebell/downloads/chromedriver-4') # use your path to your Chromedriver
   
   def login(self):
     
@@ -35,5 +36,5 @@ class StockData:
   
   def view_stock(self, ticker): # -> 
   
-  def compare_price(self, ticker): -> 
+  def compare_price(self, ticker): # -> 
  ```
