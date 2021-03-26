@@ -23,6 +23,7 @@ password = "yourPassword12345"
 class StockData:
   def __init__(self):
      '''Initialize an instance of StockData'''
+     self.raw_data = []
      self.data = []
      self.urls = {
       'sign_in': 'https://wallmine.com/users/sign-in',
