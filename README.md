@@ -23,7 +23,11 @@ password = "yourPassword12345"
 class StockData:
   def __init__(self):
      self.data = []
-     self.urls = {}
+     self.urls = {
+      'sign_in': 'https://wallmine.com/users/sign-in',
+      'homepage': 'https://wallmine.com/',
+      'view_stock': lambda exchange, symbol: f'https://secure.ally.com/capi-gw/documents/{document_id}'
+     }
      self.driver = webdriver.Chrome('/Users/romebell/downloads/chromedriver-4') # use your path to your Chromedriver
   
   def login(self):
