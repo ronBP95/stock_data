@@ -22,6 +22,7 @@ password = "yourPassword12345"
 ```py
 class StockData:
   def __init__(self):
+     '''Initialize an instance of StockData'''
      self.data = []
      self.urls = {
       'sign_in': 'https://wallmine.com/users/sign-in',
@@ -31,14 +32,23 @@ class StockData:
      self.driver = webdriver.Chrome('/Users/romebell/downloads/chromedriver-4') # use your path to your Chromedriver
   
   def login(self):
+    '''Method used to login into Wallmine account'''
+  
     
-  def retrieve_data(self): # get back all data
+  def retrieve_data(self):
+    '''Method use to retrieve stock data from Wallmine'''
   
-  def parse_data(self): # parse data into an array of objects -> returns items parsed
+  def parse_data(self):
+    '''Method used to parse the data that was retrieved'''
   
-  def store_data(self): # -> store data in MongoDB database
+  def store_data(self): 
+    '''Method used to store the data inside a MongoDB database'''
   
-  def view_stock(self, ticker): # -> 
+  def view_stock(self, ticker): 
+    '''Method used to view a stock'''
+    # View the webpage and return a string of the stock info
   
-  def compare_price(self, ticker): # -> 
+  def compare_price(self, exchange, symbol): 
+    '''Method used to compare the current price of a stock to the price in the database'''
+    # Return an object with the realtime price and price in database
  ```
