@@ -58,3 +58,8 @@ class StockData:
     time.sleep(5)
     self.driver.close()
  ```
+- Open up Jupyter Lab by using the following command:
+```text
+jupyter-lab
+```
+- Create a new notebook (*.ipynb*) file to make code snippets and test
