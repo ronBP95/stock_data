@@ -1,13 +1,23 @@
-# stock_data
-
-# Stock Script
+# Stock Bot (Script)
 We are going to create a script that retrieves, parses, and store stock data into a MongoDB database
 
 Today, we will be making a script that will be analyzing data from [Wallmine](https://www.wallmine.com)
 
-##
-
-We will be making the following class: 
+We need to do a couple of things before we start:
+- Set up an account on [Wallmine](https://www.wallmine.com) (it's free)
+- Create a repo if you want to display your work on your personal github or *fork* and *clone* this repo if otherwise
+- Create a *.gitignore* file and input the following:
+```text
+.ipynb_checkpoints
+__pycache__/    
+credentials.py
+```
+- Create a *credentials.py* file and store your **email** and **password** from your Wallmine account here
+```py
+email = "your.email@email.com
+password = "yourPassword12345"
+```
+- Create an *app.py* file add the below code snippet
 ```py
 class StockData:
   def __init__(self):
