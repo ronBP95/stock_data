@@ -5,7 +5,7 @@ Today, we will be making a script that will be analyzing data from [Wallmine](ht
 
 We need to do a couple of things before we start:
 - Set up an account on [Wallmine](https://www.wallmine.com) (it's free)
-IMPORTANT: Be sure to select ***Sign in with a password*** so you can have that for your *credentials*
+**IMPORTANT**: Be sure to select ***Sign in with a password*** so you can have that for your *credentials*
 - Create a repo if you want to display your work on your personal github or *fork* and *clone* this repo if otherwise
 - Create a *.gitignore* file and input the following:
 ```text
