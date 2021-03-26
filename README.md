@@ -51,4 +51,10 @@ class StockData:
   def compare_price(self, exchange, symbol): 
     '''Method used to compare the current price of a stock to the price in the database'''
     # Return an object with the realtime price and price in database
+    
+  def stop_program(self):
+    '''Method used to close the program'''
+    print('Closing program in 5 seconds...')
+    time.sleep(5)
+    self.driver.close()
  ```
