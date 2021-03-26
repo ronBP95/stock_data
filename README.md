@@ -63,3 +63,9 @@ class StockData:
 jupyter-lab
 ```
 - Create a new notebook (*.ipynb*) file to make code snippets and test
+
+## Resources
+- [Selenium Documentation](https://pypi.org/project/selenium/)
+- [Selenium Unofficial Docs but Really Good](https://selenium-python.readthedocs.io/index.html)
+- [*Lesson: Jupyter Lab - Repo*](https://git.generalassemb.ly/SEIR-111/jupyter_lab)
+- [*Lab: LoginBot - Repo*](https://git.generalassemb.ly/SEIR-111/login_bot)
